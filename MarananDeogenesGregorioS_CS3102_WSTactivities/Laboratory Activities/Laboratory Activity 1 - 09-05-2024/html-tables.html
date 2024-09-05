@@ -6,9 +6,12 @@
     <title>Class Schedule</title>
     <style>
         body {
-            margin: 15px;
+            background-color: #023047;
+            color: #e0e0e0;
+            margin-left: 15px;
+            margin-right: 15px;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             box-sizing: border-box;
             overflow-x: hidden; 
         }
@@ -25,20 +28,22 @@
         }
 
         table {
+            background-color: #caf0f8;
+            color: #023047;
             width: 100%;
             border-collapse: collapse;
             table-layout: fixed;
         }
 
         th, td {
-            border: 1px solid black;
+            border: 1px solid #fb8500;
             padding: 5px; 
             text-align: center;
             box-sizing: border-box;
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #fb8500;
         }
 
         tr {
@@ -46,7 +51,8 @@
         }
 
         .highlight {
-            background-color: #fdf2c0;
+            color: black;
+            background-color: #6bc9db;
         }
 
         .day-column {
@@ -73,7 +79,6 @@
         ul li {
             width: 50%;
             box-sizing: border-box;
-            margin-bottom: 5px;
         }
 
     </style>
@@ -86,7 +91,7 @@
     </div>
 
     <table>
-        <tr>
+        <tr style="height: 50px; color: #e0e0e0;">
             <th class="time-column">TIME</th>
             <th class="day-column">MONDAY</th>
             <th class="room-column">RM</th>
@@ -206,7 +211,7 @@
     </table>
 
     <div class="footer">
-        <h2 style="margin-bottom: 15px">Course Code and Description</h2>
+        <h2>Course Code and Description</h2>
         <ul>
             <li><strong>CS 311:</strong> Automata Theory and Formal Languages</li>
             <li><strong>CS 312:</strong> Mobile Computing</li>
