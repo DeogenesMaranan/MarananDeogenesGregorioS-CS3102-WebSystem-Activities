@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+    <style>
+        body {
+            margin: 15px;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+            overflow-x: hidden; 
+        }
+
+        .header, .footer {
+            text-align: center;
+            padding: 10px;
+            width: 50vw;
+            margin: 0 auto;
+        }
+
+        h1, h2, h4 {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px; 
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr {
+            height: 25px;
+        }
+
+        .highlight {
+            background-color: #fdf2c0;
+        }
+
+        .day-column {
+            width: 12%;
+        }
+
+        .room-column {
+            width: 7%;
+        }
+
+        .time-column {
+            width: 10%;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        ul li {
+            width: 50%;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Class Schedule</h1>
+        <h4>First Semester, A.Y. 2024-2025</h4>
+    </div>
+
+    <table>
+        <tr>
+            <th class="time-column">TIME</th>
+            <th class="day-column">MONDAY</th>
+            <th class="room-column">RM</th>
+            <th class="day-column">TUESDAY</th>
+            <th class="room-column">RM</th>
+            <th class="day-column">WEDNESDAY</th>
+            <th class="room-column">RM</th>
+            <th class="day-column">THURSDAY</th>
+            <th class="room-column">RM</th>
+            <th class="day-column">FRIDAY</th>
+            <th class="room-column">RM</th>
+        </tr>
+        <tr>
+            <td rowspan="2">6:00 - 7:00</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="4">&nbsp;</td>
+            <td rowspan="4">&nbsp;</td>
+            <td rowspan="24">&nbsp;</td>
+            <td rowspan="24">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">7:00 - 8:00</td>
+            <td rowspan="3" class="highlight">IT 321<br>PALAD</td>
+            <td rowspan="3" class="highlight">102</td>
+            <td rowspan="6" class="highlight">IT 314<br>AGDON</td>
+            <td rowspan="6" class="highlight">LAB 3</td>
+            <td rowspan="3" class="highlight">IT 321<br>PALAD</td>
+            <td rowspan="3" class="highlight">103</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">8:00 - 9:00</td>
+            <td rowspan="10" class="highlight">CS 312<br>DE CHAVEZ</td>
+            <td rowspan="4" class="highlight">101</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="highlight">GED 104<br>MADLANGBAYAN</td>
+            <td rowspan="3" class="highlight">102</td>
+            <td rowspan="3" class="highlight">CS 311<br>COMIA</td>
+            <td rowspan="3" class="highlight">102</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9:00 - 10:00</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">10:00 - 11:00</td>
+            <td rowspan="3" class="highlight">MATH 408<br>PENERO</td>
+            <td rowspan="3" class="highlight">103</td>
+            <td rowspan="6" class="highlight">LAB 4</td>
+            <td rowspan="3" class="highlight">CS 311<br>COMIA</td>
+            <td rowspan="3" class="highlight">102</td>
+            <td rowspan="3" class="highlight">MATH 408<br>PENERO</td>
+            <td rowspan="3" class="highlight">103</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">11:00 - 12:00</td>
+        </tr>
+        <tr>  
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td rowspan="2">12:00 - 1:00</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">1:00 - 2:00</td>
+            <td rowspan="4" class="highlight">IT 314<br>AGDON</td>
+            <td rowspan="4" class="highlight">102</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td rowspan="4" class="highlight">IT 331<br>MONTALBO</td>
+            <td rowspan="4" class="highlight">102</td>
+            <td rowspan="6" class="highlight">IT 331<br>MONTALBO</td>
+            <td rowspan="6" class="highlight">LAB 4</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">2:00 - 3:00</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="highlight">GED 104<br>MADLANGBAYAN</td>
+            <td rowspan="3" class="highlight">10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3:00 - 4:00</td>
+            <td rowspan="6">&nbsp;</td>
+            <td rowspan="6">&nbsp;</td>
+            <td rowspan="6">&nbsp;</td>
+            <td rowspan="6">&nbsp;</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">4:00 - 5:00</td>
+            <td rowspan="4">&nbsp;</td>
+            <td rowspan="4">&nbsp;</td>
+            <td rowspan="4">&nbsp;</td>
+            <td rowspan="4">&nbsp;</td>
+        </tr>
+        <tr>&nbsp;</tr>
+        <tr>
+            <td rowspan="2">5:00 - 6:00</td>
+        </tr>
+        <tr>&nbsp;</tr>
+    </table>
+
+    <div class="footer">
+        <h2 style="margin-bottom: 15px">Course Code and Description</h2>
+        <ul>
+            <li><strong>CS 311:</strong> Automata Theory and Formal Languages</li>
+            <li><strong>CS 312:</strong> Mobile Computing</li>
+            <li><strong>IT 321:</strong> Human-Computer Interaction</li>
+            <li><strong>IT 314:</strong> Web Systems and Technologies</li>
+            <li><strong>IT 331:</strong> Application Development and Emerging Technologies</li>
+            <li><strong>MATH 408:</strong> Data Analysis</li>
+            <li><strong>GEd 104:</strong> The Contemporary World</li>
+        </ul>
+    </div>
+
+</body>
+</html>
