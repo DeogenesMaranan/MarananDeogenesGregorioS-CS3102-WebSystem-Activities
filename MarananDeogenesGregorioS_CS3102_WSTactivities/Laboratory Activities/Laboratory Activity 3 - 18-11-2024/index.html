@@ -7,20 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <div class="container">
-            <button class="theme-toggle-btn" id="theme-toggle">
-                <img id="sun-icon" src="assets/lightMode.svg" alt="Light Mode" style="width: 40px; height: 40px;">
-                <img id="moon-icon" src="assets/darkMode.svg" alt="Dark Mode" style="width: 40px; height: 40px; display: none;">
-            </button>
-            <h2>Word and Sentence Counter</h2>
-            <textarea id="textInput" placeholder="Enter your text here..."></textarea>
-            <div class="counter-container">
-                <div id="wordcount" class="counter">Words: 0</div>
-                <div id="sentenceCount" class="counter">Sentences: 0</div>
-            </div>
+    <div class="container">
+        <button class="theme-toggle-btn" id="theme-toggle">
+            <img id="sun-icon" src="assets/lightMode.svg" alt="Light Mode" style="width: 40px; height: 40px;">
+            <img id="moon-icon" src="assets/darkMode.svg" alt="Dark Mode" style="width: 40px; height: 40px; display: none;">
+        </button>
+        <h2>Word and Sentence Counter</h2>
+        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+        <div class="counter-container">
+            <div id="wordcount" class="counter">Words: 0</div>
+            <div id="sentenceCount" class="counter">Sentences: 0</div>
         </div>
-    </section>
+    </div>
     <div id="floatingWords"></div>
     <script src="script.js"></script>
 </body>
